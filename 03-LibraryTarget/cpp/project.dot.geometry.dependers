@@ -1,0 +1,8 @@
+digraph "geometry" {
+node [
+  fontsize = "12"
+];
+    "node1" [ label = "geometry", shape = octagon ];
+    "node0" [ label = "compute-areas", shape = egg ];
+    "node0" -> "node1" [ style = dotted ] // compute-areas -> geometry
+}
