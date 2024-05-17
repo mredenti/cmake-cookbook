@@ -1,0 +1,1 @@
+cmake -B ./build --trace-redirect=log.txt --trace --trace-expand
